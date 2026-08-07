@@ -5,6 +5,6 @@ cask "bridgelock" do
   name "BridgeLock"
   desc "Bring true access control to macOS virtual desktops. Lock individual workspaces with a secure PIN."
   homepage "http://argyrios-dev.github.io/BridgeLock/"
-  depends_on macos: ">= :ventura"
+ depends_on macos: :ventura
   app "BridgeLock.app"
 end
